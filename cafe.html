@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Lumière</title>
+  <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+  <header>
+    <h1>Café Lumière</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#access">Access</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="mainvisual fade-in">
+    <h2>あなたの心をほっと癒す、街角カフェ</h2>
+  </section>
+
+  <section id="about" class="content" fade-in>
+    <h2>About</h2>
+    <p>当店は、こだわりのコーヒーと手作りスイーツを提供する小さなカフェです。</p>
+  </section>
+
+  <section id="menu" class="content" fade-in>
+    <h2>Menu</h2>
+    <div class="menu-item">
+      <img src="コーヒー.jpg" alt="コーヒー">
+      <p>スペシャルブレンドコーヒー - ¥500</p>
+    </div>
+    <div class="menu-item">
+      <img src="ガトーショコラ.jpg" alt="スイーツ">
+      <p>手作りガトーショコラ - ¥450</p>
+    </div>
+  </section>
+
+  <section id="access" class="content" fade-in>
+    <h2>Access</h2>
+    <p>〒123-4567 東京都〇〇区〇〇町1-2-3<br>営業時間：10:00〜18:00（火曜定休）</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Café Lumière</p>
+  </footer>
+
+ 
+
+  <script src="cafe.js" defer></script>
+
+</body>
+ <!-- モーダル表示用 -->
+  <div id="modal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modal-img" alt="拡大画像">
+    <div id="modal-caption"></div>
+  </div>
+</html>
